@@ -59,6 +59,7 @@ sg90.write (ax);
 sg90.write (ay);
 
 delay (200);
+}
 # delays are important for preventing the input terminal from getting overloaded with information.
 
 
