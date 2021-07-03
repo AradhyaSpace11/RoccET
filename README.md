@@ -1,6 +1,6 @@
 # RoccET
 # This Repository Contains program files for the open source project of Quark Amateur TVC Rocket Programme.
-# This code gives a representation of the algorith used to steer a TVC Rocket by controling its pitch and yaw such that the projectile moves in a straight line wrt the Ground.
+# This code gives a representation of the algorithm used to steer a TVC Rocket by controling it's pitch and yaw such that the projectile moves in a straight line wrt the Ground.
 # Please note that the code is complete in itself to be used on a test model and any enthusiast can use and upgrade the code to suit their project desires.
 # The ideal aim of this project is to code a flight controller such that it returns the rocket back on ground upright and intact.
 # you need to download the Wire.h, MPU6050.h and Servo.h libraries before you compile (or even starting this project)
@@ -8,7 +8,9 @@
 
 #include <Wire.h> 
 #include <MPU6050.h>
-#include <Servo.h>  
+#include <Servo.h> 
+
+# Again, make sure you have downloaded the above mentioned libraries
 
 Servo sg90;          
 
