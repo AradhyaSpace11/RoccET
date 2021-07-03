@@ -10,7 +10,7 @@
 #include <MPU6050.h>
 #include <Servo.h> 
 
-# Again, make sure you have downloaded the above mentioned libraries
+
 
 Servo sg90;          
 
